@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+
+body {
+  background: #8FBC8F;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+#container {
+  width: 100%;
+  padding: 2em;
+  padding-top: 0.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Ovo', serif;
+  padding-left: 0.5em;
+}
+
+#albums {
+  text-align: center;
+}
+
+@media (max-width:800px) {
+  #container {margin: 0;}
